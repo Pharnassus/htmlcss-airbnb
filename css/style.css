@@ -11,15 +11,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-.bkd1{
+.bg1{
   background-image: url("../img/ny.png");
   background-position: top;
 }
-.bkd2{
+.bg2{
   background-image: url("../img/mi.jpg");
   background-position: center;
 }
-.bkd3{
+.bg3{
   background-image: url("../img/lo.jpg");
   background-position: center;
 }
@@ -29,6 +29,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
   display: none;
+  cursor: pointer;
 }
 .layout:hover .layover{
   display: block;
